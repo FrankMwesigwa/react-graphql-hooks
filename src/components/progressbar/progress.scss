@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    background-image: url(/images/bg-registration-form-2.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Poppins;
+    color: #01ab97;
+}
+ul {
+    text-align: center;
+}
+
+.stepper-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+.stepper-horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+.stepper-wrapper {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        position: relative;
+
+}
+.stepper-wrapper .fas {
+    background: #ccc;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.stepper-wrapper .stepper-active {
+    background: #60aa97;
+
+}
+.stepper-line {
+    background: #ccc;
+    height: 5px;
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    z-index: -1;
+
+}
+.stepper-line-active {
+    width: 100px;
+    left: 100px;
+
+}
+.stepper-line-completed {
+    background: #60aa97;
+    width: 100px;
+    left: 100px;
+
+}
+.stepper-line-middle {
+    background: #60aa97;
+    width: 200px;
+
+}
+.stepper-line-3 {
+    background: #ccc;
+    width: 200px;
+
+}
+.stepper-line-4 {
+    background: #ccc;
+    width: 200px;
+    right: 100px;
+
+}
+.stepper-line-end {
+    width: 100px;
+}
+.stepper-line-end-active {
+    width: 100px;
+    background: #60aa97;
+}
+ul li {
+    display: inline-block;
+    width: 200px;
+    position: relative;
+}
+ul li .fas {
+    background: #ccc;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+ul li .fas::after {
+    content:'';
+    background: #ccc;
+    height: 5px;
+    width: 200px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    z-index: -1;
+
+}
+ul li:nth-child(2) .fas {
+    background: #148e14;
+}
+ul li:nth-child(2) .fas::after {
+    background: #148e14;
+}
+ul li:nth-child(1) .fas {
+    background: #60aa97;
+}
+ul li:nth-child(1) .fas::after {
+    background: #60aa97;
+}
+ul li:first-child .fas::after {
+    width: 100px;
+    left: 100px;
+}
+ul li:last-child .fas::after {
+    width: 100px;
+}
+.stepper-bar {
+    margin: 100 px auto;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
