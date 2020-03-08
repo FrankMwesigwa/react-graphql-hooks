@@ -1,0 +1,11 @@
+{
+    "world":
+    [
+        { "id": "1", "name": "uganda" },
+        { "id": "2", "name": "kenya" },
+        { "id": "3", "name": "rwanda" },
+        { "id": "4", "name": "tanzania" },
+        { "id": "5", "name": "burundi" },
+        { "id": "6", "name": "south africa" }
+    ]
+}

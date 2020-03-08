@@ -1,0 +1,15 @@
+
+    [
+        { "id": "1", "skill": "accounts", "industry":"banking"},
+        { "id": "2", "skill": "compliance", "industry":"legal"},
+        { "id": "3", "skill": "mining", "industry":"oil"},
+        { "id": "4", "skill": "strategy", "industry":"management"},
+        { "id": "5", "skill": "loans", "industry":"banking"},
+        { "id": "6", "skill": "treasury", "industry":"banking"},
+        { "id": "7", "skill": "gas", "industry":"oil"},
+        { "id": "8", "skill": "sand", "industry":"oil"},
+        { "id": "9", "skill": "treasury", "industry":"banking"},
+        { "id": "10", "skill": "court", "industry":"legal"},
+        { "id": "11", "skill": "cases", "industry":"legal"},
+        { "id": "12", "skill": "top", "industry":"management"}
+    ]
